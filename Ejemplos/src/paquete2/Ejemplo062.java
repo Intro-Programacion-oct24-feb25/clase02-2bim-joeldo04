@@ -40,7 +40,7 @@ public class Ejemplo062 {
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
-            System.out.printf("Subíndice o Indice %.2f, con valor %d\n",
+            System.out.printf("Subíndice o Indice %d, con valor %d\n",
                     i, arreglo1[i]);
         }
         

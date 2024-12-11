@@ -47,7 +47,7 @@ public class Ejemplo08 {
         // cadenaFinal = String.format("%s%d\n", cadenaFinal, suma);
         System.out.printf("%s\nLa suma de los valores del arreglo es: %d\n"
                 + "La suma de los pares es: %d\n"
-                + "La suman de los impares es: %d\n ", 
+                + "La suma de los impares es: %d\n ", 
                 cadenaFinal, suma, sumas[0], sumas[1]);
         
     }
