@@ -3,32 +3,36 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete1;
+package paquete2;
+
+import java.util.Scanner;
+import paquete1.*;
 
 /**
  *
- * @author reroes
+ * @author Joel
  */
-public class Ejemplo04 {
+public class Ejemplo05 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Declarar y generar arreglos en Java
+        Scanner entrada = new Scanner(System.in);
         
+        System.out.println("Ingrese el numero de elementos");
+        int numero_elementos = entrada.nextInt();
         // arreglo de tipo entero
-        int[] arreglo = new int [0];
-        // Es un arreglo tipo entero
+        int nunmero_elementos;
+        int[] arreglo1 = new int[15];
+        // Se asigna valores al arreglo
         
-        int[] arreglo1 = {1000, 1, 2, 2000, 300};
-        // System.out.println(arreglo1.length);
-        // arreglo1[2] = 1000;
+        System.out.printf("%d\n", arreglo1.length);
+        // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
             System.out.printf("Subíndice o Índice %d, con valor %d\n",
                     i, arreglo1[i]);
         }
-        
         
     }
 
