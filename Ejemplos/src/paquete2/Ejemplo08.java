@@ -56,7 +56,7 @@ public class Ejemplo08 {
     1000
     2000
     3000
-    4000
+    4003
     5000
     La suma de los valores del arreglo es: 15000
     La suma de pares es:

@@ -25,7 +25,6 @@ public class Ejemplo062 {
         double dato;
         // arreglo de tipo entero
         double[] arreglo1 = new double[7];
-        
         // Se asigna valores al arreglo, pidiendo valores por teclado
         // se usa un ciclo repetitivo
         for (int i = 0; i < arreglo1.length; i++) {
@@ -34,13 +33,11 @@ public class Ejemplo062 {
             dato = entrada.nextDouble();
             // se asigna la variable dato a la posición del arreglo
             // de acuerdo al valor de i
-            arreglo1[i] = dato;
-            
-        }
-        
+            arreglo1[i] = dato;         
+        }      
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
-            System.out.printf("Subíndice o Indice %d, con valor %d\n",
+            System.out.printf("Subindice o Indice %d, con valor %.2f\n",
                     i, arreglo1[i]);
         }
         
